@@ -1,0 +1,9 @@
+server:
+  port: 9000
+
+spring:
+  application:
+    name: authorization-server
+
+client-app:
+  url: ${CLIENT_URL:http://localhost:8090}
